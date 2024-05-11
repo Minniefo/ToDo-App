@@ -21,6 +21,8 @@ import com.example.tpdoapp.databinding.FragmentEditTaskBinding
 import com.example.tpdoapp.model.Task
 import com.example.tpdoapp.viewmodel.TaskViewModel
 
+
+
 class EditTaskFragment : Fragment(R.layout.fragment_edit_task),MenuProvider {
 
     private var editTaskBinding:FragmentEditTaskBinding?=null
